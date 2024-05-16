@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CarRacing</title>
+</head>
+<body>
+    <!-- Texto-->
+    <div id=text>
+        <h1 id="name">*Traffic Racer*</h1> 
+        <p id="titule">* Si chocas pierdes... *<br>* ¡ Adelante Piloto demuestra de que estas echo ! *</p>
+        
+        
+    </div>
+    <!-- Menu -->
+    <div id=menu >
+        <div class="container" id="container">
+            <img id="fond" src="Recursos/racing.gif">
+            <div class="con">
+                <p id="icon"> Precione para iniciar</p>
+            </div>
+            <div class="second">
+                <img id="play" src="Recursos/Play.png" onclick="jugar ()">
+            </div>
+            <div id="f1"></div>
+            <audio id="audio" src="f1.ogg"autoplay ></audio>
+        </div>
+    </div> 
+    <!-- Juego -->
+    <div id="body">
+        <div id="game">
+            <div class="carGame">
+                <div class="score"></div>
+                <!-- aqui esta el botton-->
+                <div>
+                    <img class="home" src="home.png">
+                </div>
+                <div class="startScreen">
+                </div>
+                <div class="gameArea"></div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
